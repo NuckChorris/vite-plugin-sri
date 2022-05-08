@@ -9,6 +9,7 @@
     "require": "./index.cjs"
   },
   "scripts": {
+    "prepare": "rollup -c",
     "build": "rollup -c",
     "test": "node test/index.js",
     "coverage": "c8 node test/index.js"
